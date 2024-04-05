@@ -1,0 +1,23 @@
+{
+    "app": {
+        "controller": {
+          "stuff": "stuff"
+        },
+        "helper": {
+          
+        },
+        "lib": {
+          "vendor": {
+
+          }
+        },
+        "model": {
+          
+        },
+        "view": {
+          "templates": {
+            
+          }
+        }
+    }
+}
