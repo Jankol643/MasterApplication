@@ -1,7 +1,7 @@
 const Singleton = (function () {
   let instance;
 
-  createDirStructure() {
+  function test() {
     //TODO: read from JSON file
     //var fs  = require('fs');
     var obj = {
@@ -18,8 +18,9 @@ const Singleton = (function () {
       },
       "Africa": null
     };
+  }
 
-  createStructure(folder, o) {
+  function createStructure(folder, o) {
       for (let key in o) {
         if (typeof o[key] === 'object' && o[key] !== null) {
           console.log('folder created : ' + (folder + key))
